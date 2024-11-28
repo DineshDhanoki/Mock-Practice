@@ -1,10 +1,5 @@
-function diplo() {
-  var a = 1;
-  var b = 2;
-
-  console.log(a);
-  console.log(b);
-}
-diplo();
-console.log(a);
-console.log(b);
+const numbers = [0, 10, 20, 30, 40, 50];
+const number = numbers.map((nums) => nums / 2);
+const filtered = numbers.filter((num) => num <= 30);
+console.log(number);
+console.log(filtered);
