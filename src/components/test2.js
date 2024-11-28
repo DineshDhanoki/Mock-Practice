@@ -1,7 +1,10 @@
-for (var i = 1; i <= 3; i++) {
-  (function (i) {
-    setTimeout(() => {
-      console.log(i);
-    }, 1000);
-  })(i);
+function diplo() {
+  var a = 1;
+  var b = 2;
+
+  console.log(a);
+  console.log(b);
 }
+diplo();
+console.log(a);
+console.log(b);
