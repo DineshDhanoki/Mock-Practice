@@ -1,9 +1,10 @@
+var x = 1;
 function outer() {
+  console.log(x);
   function inner() {
     console.log(x);
   }
-  var x = 5;
-  return inner;
+  inner();
+  var x = 2;
 }
-const inner = outer();
-inner();
+outer();
